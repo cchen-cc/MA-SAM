@@ -168,7 +168,7 @@ def config_to_dict(config):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--adapt_ckpt', type=str, default='/mnt/weka/wekafs/rad-megtron/cchen/project_results/MA_SAM/results-1/epoch_19.pth', help='The checkpoint after adaptation')
+    parser.add_argument('--adapt_ckpt', type=str, default='/mnt/weka/wekafs/rad-megtron/cchen/project_results/MA_SAM/results-1/epoch_159.pth', help='The checkpoint after adaptation')
     parser.add_argument('--data_path', type=str, default='/mnt/weka/wekafs/rad-megtron/cchen/synapseCT/Training/2D_all_5slice')
     
     parser.add_argument('--num_classes', type=int, default=12)

@@ -288,7 +288,8 @@ class Fact_tt_Sam(nn.Module):
         super(Fact_tt_Sam, self).__init__()
 
         assert r > 0
-        # base_vit_dim = sam_model.image_encoder.patch_embed.proj.out_channels
+        base_vit_dim = sam_model.image_encoder.patch_embed.proj.out_channels
+        
         # dim = base_vit_dim
         if fact_layer:
             self.fact_layer = fact_layer
@@ -299,8 +300,8 @@ class Fact_tt_Sam(nn.Module):
         self.q_FacTs = []  # These are linear layers
         self.v_FacTs = []
 
-        self.FacTu = nn.Linear(1280, r, bias=False)
-        self.FacTv = nn.Linear(r, 1280, bias=False)
+        self.FacTu = nn.Linear(base_vit_dim, r, bias=False)
+        self.FacTv = nn.Linear(r, base_vit_dim, bias=False)
         nn.init.zeros_(self.FacTv.weight)
 
         # lets freeze pre-trained weights

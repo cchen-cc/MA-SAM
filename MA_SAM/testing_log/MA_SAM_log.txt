@@ -43,3 +43,26 @@
 [19:23:12.661] Mean class 12 name adrenal gland mean_dice 0.710043
 [19:23:12.661] Testing performance in best val model: mean_dice : 0.854275 
 [19:23:12.661] Testing Finished!
+[12:41:03.840] Namespace(adapt_ckpt='/mnt/weka/wekafs/rad-megtron/cchen/project_results/MA_SAM/results-1/epoch_159.pth', data_path='/mnt/weka/wekafs/rad-megtron/cchen/synapseCT/Training/2D_all_5slice', num_classes=12, img_size=512, seed=1234, is_savenii=False, deterministic=1, ckpt='/mnt/weka/wekafs/rad-megtron/cchen/PretrainedModel/sam_vit_h_4b8939.pth', vit_name='vit_h', rank=32, scale=1.0, module='sam_fact_tt_image_encoder', output_dir='/mnt/weka/wekafs/rad-megtron/cchen/project_results/MA_SAM/results-1/epoch_159')
+[12:42:18.142] idx 1 case 0035 mean_dice 0.807097
+[12:44:40.980] idx 1 case 0036 mean_dice 0.892942
+[12:46:14.038] idx 1 case 0037 mean_dice 0.885721
+[12:47:46.441] idx 1 case 0038 mean_dice 0.862693
+[12:49:22.783] idx 1 case 0039 mean_dice 0.888925
+[12:52:30.156] idx 1 case 0040 mean_dice 0.894904
+[12:52:30.157] Mean class 1 name spleen mean_dice 0.967459
+[12:52:30.158] Mean class 2 name right kidney mean_dice 0.950576
+[12:52:30.158] Mean class 3 name left kidney mean_dice 0.953636
+[12:52:30.158] Mean class 4 name gallbladder mean_dice 0.687231
+[12:52:30.158] Mean class 5 name esophagus mean_dice 0.822453
+[12:52:30.158] Mean class 6 name liver mean_dice 0.971833
+[12:52:30.158] Mean class 7 name stomach mean_dice 0.927187
+[12:52:30.158] Mean class 8 name aorta mean_dice 0.913681
+[12:52:30.158] Mean class 9 name vena mean_dice 0.874141
+[12:52:30.158] Mean class 10 name vein mean_dice 0.803463
+[12:52:30.158] Mean class 11 name pancreas mean_dice 0.857243
+[12:52:30.158] Mean class 12 name adrenal gland mean_dice 0.735659
+[12:52:30.158] Testing performance in best val model: mean_dice : 0.872047 
+[12:52:30.158] Testing Finished!
+[12:54:12.620] Namespace(adapt_ckpt='/mnt/weka/wekafs/rad-megtron/cchen/project_results/MA_SAM/results-1/epoch_159.pth', data_path='/mnt/weka/wekafs/rad-megtron/cchen/synapseCT/Training/2D_all_5slice', num_classes=12, img_size=512, seed=1234, is_savenii=False, deterministic=1, ckpt='/mnt/weka/wekafs/rad-megtron/cchen/PretrainedModel/sam_vit_h_4b8939.pth', vit_name='vit_h', rank=32, scale=1.0, module='sam_fact_tt_image_encoder', output_dir='/mnt/weka/wekafs/rad-megtron/cchen/project_results/MA_SAM/results-1/epoch_159')
+[12:55:18.135] Namespace(adapt_ckpt='/mnt/weka/wekafs/rad-megtron/cchen/project_results/MA_SAM/results-1/epoch_159.pth', data_path='/mnt/weka/wekafs/rad-megtron/cchen/synapseCT/Training/2D_all_5slice', num_classes=12, img_size=512, seed=1234, is_savenii=False, deterministic=1, ckpt='/mnt/weka/wekafs/rad-megtron/cchen/PretrainedModel/sam_vit_h_4b8939.pth', vit_name='vit_h', rank=32, scale=1.0, module='sam_fact_tt_image_encoder', output_dir='/mnt/weka/wekafs/rad-megtron/cchen/project_results/MA_SAM/results-1/epoch_159')
