@@ -29,7 +29,7 @@ pip install -r requirements.txt
 - EndoVis'18 dataset: The raw data can be downloaded form the [challenge website](https://endovissub2018-roboticscenesegmentation.grand-challenge.org/Downloads/) after registration.
 - MSD-Pancreas: The raw data can be downloaded from the [this link](https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2).
 
-In the directory [preprocessing](), we provide the dataset splits that are used in our work. 
+In this [dataset_split file](https://github.com/cchen-cc/MA-SAM/blob/main/preprocessing/dataset_split.md), we provide the dataset splits that are used in our work. 
   
 ## Training
 Before start, please download SAM pre-trained model weights: [SAM ViT_H](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth), [SAM ViT_L](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth), [SAM ViT_B](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth). Then go to the folder MA-SAM, and start the training:
