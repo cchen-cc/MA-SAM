@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```
 
 ## Data Preparation
-- BTCV dataset: The raw data can be downloaded from the [challenge website](https://www.synapse.org/#!Synapse:syn3379050) after registration. We also provided our [preprocessing script](https://github.com/cchen-cc/MA-SAM/blob/main/preprocessing/util_script_btcv.py) and preprocessed data. 
+- BTCV dataset: The raw data can be downloaded from the [challenge website](https://www.synapse.org/#!Synapse:syn3379050) after registration. We also provide our [preprocessing script](https://github.com/cchen-cc/MA-SAM/blob/main/preprocessing/util_script_btcv.py) and [preprocessed data](https://drive.google.com/file/d/1uk8cOQsX7VQBQxnwQRRtfLT-rhX4q7PD/view?usp=drive_link). 
 - Prostate dataset: The raw data can be downloaded from [this link](https://liuquande.github.io/SAML/). 
 - EndoVis'18 dataset: The raw data can be downloaded form the [challenge website](https://endovissub2018-roboticscenesegmentation.grand-challenge.org/Downloads/) after registration.
 - MSD-Pancreas: The raw data can be downloaded from the [this link](https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2).
