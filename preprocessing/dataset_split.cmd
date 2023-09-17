@@ -14,4 +14,4 @@
 * Data split: test_fd_list = released test set ['seq_1', 'seq_2', 'seq_3', 'seq_4']
 
 ## MSD-Pancreas
-* Data split: data is splitted according to [this file](). 
+* Data split: data is splitted according to [this file](https://github.com/cchen-cc/MA-SAM/blob/main/preprocessing/split_pancreas.pkl). 
