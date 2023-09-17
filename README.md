@@ -57,4 +57,4 @@ If you find the code useful for your research, please cite our paper.
 
 ## Note
 - The repository is being updated. Please feel free to contact us or open new issues if you encounter any problem when using our code.
-- Contact: Cheng Chen ([cchen101@mgh.harvard.edu])
+- Contact: Cheng Chen ([cchen101@mgh.harvard.edu]())
