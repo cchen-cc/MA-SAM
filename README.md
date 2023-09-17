@@ -15,10 +15,17 @@ This is a PyTorch implementation of the paper [MA-SAM: Modality-agnostic SAM Ada
 - cuda==11.7
 
 #### Installation
-First clone this repository and install the dependencies.
+Clone this repository and then install the dependencies.
 ```sh
 git clone https://github.com/cchen-cc/MA-SAM.git
 conda create -n masam python=3.10.12
 conda activate masam
 pip install -r requirements.txt
 ```
+
+## Data Preparation
+- BTCV dataset: The raw data can be downloaded from the [challenge website](https://www.synapse.org/#!Synapse:syn3379050) after registration. We also provided our preprocessing script and preprocessed data. 
+- Prostate dataset: The raw data can be downloaded from [this link](https://liuquande.github.io/SAML/). 
+- EndoVis'18 dataset: The raw data can be downloaded form the [challenge website](https://endovissub2018-roboticscenesegmentation.grand-challenge.org/Downloads/) after registration.
+- MSD-Pancreas: The raw data can be downloaded from the [this link](https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2). 
+  
