@@ -34,7 +34,7 @@ pip install -r requirements.txt
 In this [dataset_split file](https://github.com/cchen-cc/MA-SAM/blob/main/preprocessing/dataset_split.md), we provide the dataset splits that are used in our work. 
   
 ## Training
-Before start, please download SAM pre-trained model weights: [SAM ViT_H](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth), [SAM ViT_L](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth), [SAM ViT_B](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth). Then go to the folder MA-SAM, and start the training:
+Before start, please download SAM pre-trained model weights: [SAM ViT_H](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth), [SAM ViT_L](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth), [SAM ViT_B](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth), and save them under proper folders. Then go to the folder MA-SAM, and start the training:
 ```sh
 cd MA-SAM
 python train.py --root_path <Your data directory> --output <Your output directory> --ckpt <Your SAM pre-trained model directory>
