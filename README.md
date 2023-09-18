@@ -20,6 +20,8 @@ Clone this repository and then install the dependencies.
 git clone https://github.com/cchen-cc/MA-SAM.git
 conda create -n masam python=3.10.12
 conda activate masam
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+cd MA-SAM
 pip install -r requirements.txt
 ```
 
@@ -40,7 +42,7 @@ python train.py --root_path <Your data directory> --output <Your output director
 We use 8 A100 80G GPUs to train our full model. To reduce the memory consumption, you may consider change the backbone from ViT_H to ViT_L or ViT_B. To do so, you would need to change the arguments --vit_name to 'vit_l' or 'vit_b' and load the correct SAM pre-trained weights for --ckpt. You may also consider reduce the number of consecutive slices. To do so, you would need to make according changes for the data pre-processing and evaluation. However, using smaller backbone or reduce the number of consecutive slices would lead to a decrease in performance. We do not recommend to reduce the batch size, which would make the model difficult to converge.
 
 ## Inference
-We provide [our trained model](https://drive.google.com/file/d/1zBaDHkkH9FbPC2S8vl6cwUqy5nrxPmtu/view?usp=drive_link) for reproducing our results. 
+We provide [our trained model](https://drive.google.com/file/d/1zBaDHkkH9FbPC2S8vl6cwUqy5nrxPmtu/view?usp=drive_link) for reproducing our results on BTCV datasets. 
 To perform inference with the trained MA-SAM model, use the following command
 ```sh
 python test.py --adapt_ckpt <Your MA-SAM model directory> --data_path <Your data directory> --ckpt <Your SAM pre-trained model directory> --is_savenii
