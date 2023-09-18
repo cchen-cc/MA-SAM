@@ -12,10 +12,9 @@ safetensors==0.3.1
 scipy==1.10.1
 SimpleITK==2.2.1
 tensorboardX==2.6
-torch==2.0.0
-torchvision==0.15.1
 tqdm==4.65.0
 ml-collections==0.1.1
 pycocotools==2.0.6
 onnx==1.14.0
 onnxruntime==1.14.1
+pandas==2.0.2
