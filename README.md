@@ -1,6 +1,6 @@
 # MA-SAM: Modality-agnostic SAM Adaptation for 3D Medical Image Segmentation
 
-This is a PyTorch implementation of the paper [MA-SAM: Modality-agnostic SAM Adaptation for 3D Medical Image Segmentation](https://arxiv.org).
+This is a PyTorch implementation of the paper [MA-SAM: Modality-agnostic SAM Adaptation for 3D Medical Image Segmentation](https://arxiv.org/pdf/2309.08842.pdf).
 
 ![Overview of MA-SAM framework](asset/overview.png?raw=true "Overview of MA-SAM framework")
 
@@ -55,6 +55,12 @@ Our code is based on [SAMed](https://github.com/hitachinsk/SAMed) and [Segment A
 ## Citation
 If you find the code useful for your research, please cite our paper.
 ```sh
+@article{chen2023masam,
+  title={MA-SAM: Modality-agnostic SAM Adaptation for 3D Medical Image Segmentation},
+  author={Cheng Chen, Juzheng Miao, Dufan Wu, Zhiling Yan, Sekeun Kim, Jiang Hu, Aoxiao Zhong, Zhengliang Liu, Lichao Sun, Xiang Li, Tianming Liu, Pheng-Ann Heng, Quanzheng Li},
+  journal={arXiv preprint arXiv:2309.08842},
+  year={2023}
+}
 ```
 
 ## Note
