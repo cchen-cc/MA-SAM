@@ -50,7 +50,7 @@ python test.py --adapt_ckpt <Your MA-SAM model directory> --data_path <Your data
 Running this command will output the Dice evaluation metrics for your model. The argument --is_savenii will create a folder with the same name as your MA-SAM model directory (without the .pth postfix of course) to save the corresponding .nii prediction files.
 
 ## Acknowledgments
-Our code is based on [SAMed](https://github.com/hitachinsk/SAMed) and [Segment Anything](https://github.com/facebookresearch/segment-anything). We appreciate the authors for their great works. 
+Our code is based on [SAMed](https://github.com/hitachinsk/SAMed), [FacT](https://github.com/JieShibo/PETL-ViT/tree/main/FacT), and [Segment Anything](https://github.com/facebookresearch/segment-anything). We appreciate the authors for their great works. 
 
 ## Citation
 If you find the code useful for your research, please cite our paper.
