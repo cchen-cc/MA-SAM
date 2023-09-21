@@ -55,9 +55,9 @@ Our code is based on [SAMed](https://github.com/hitachinsk/SAMed), [FacT](https:
 ## Citation
 If you find the code useful for your research, please cite our paper.
 ```sh
-@article{chen2023masam,
+@article{chen2023ma,
   title={MA-SAM: Modality-agnostic SAM Adaptation for 3D Medical Image Segmentation},
-  author={Cheng Chen, Juzheng Miao, Dufan Wu, Zhiling Yan, Sekeun Kim, Jiang Hu, Aoxiao Zhong, Zhengliang Liu, Lichao Sun, Xiang Li, Tianming Liu, Pheng-Ann Heng, Quanzheng Li},
+  author={Chen, Cheng and Miao, Juzheng and Wu, Dufan and Yan, Zhiling and Kim, Sekeun and Hu, Jiang and Zhong, Aoxiao and Liu, Zhengliang and Sun, Lichao and Li, Xiang and Liu, Tianming and Heng, Pheng-Ann and Li, Quanzheng},
   journal={arXiv preprint arXiv:2309.08842},
   year={2023}
 }
